@@ -511,12 +511,11 @@ margin-bottom:-3px;
 .main_seventh-boxes1{
     border: 1px #fae5d3 solid;
     width: 300px;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 10px;
-    padding-right: 35px;
+    padding-right: 30px;
     padding-bottom: 10px;
     border-radius: 10px;
-
 }
 
 .main_seventh-boxes1-main{
@@ -623,3 +622,23 @@ margin-bottom:-3px;
     color: #6f6f6f;
 }
 
+.main_eighth-img{
+    width: 50px;
+}
+.main_eighth-header{
+    font-size: 24px;
+    width: 240px;
+}
+
+.main_eighth-text{
+    width: 250px;
+    font-size: 18px; 
+}
+
+.main_eighth{
+    display: flex;
+    column-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
