@@ -194,6 +194,7 @@ nav {
 
 .main_third-box1 {
     display: flex;
+    justify-content: space-around;
 }
 
 .main_third-box1-2_img {
@@ -265,7 +266,7 @@ nav {
 }
 
 .main_third-box1-1_2 {
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 .main_third-box3 {
@@ -278,6 +279,7 @@ nav {
 
 .main_fifth-box1-div {
     display: flex;
+    justify-content: space-around;
 }
 
 .main_fifth-box1-div11 {
@@ -379,6 +381,7 @@ nav {
 
 .main_fifth-boxes {
     display: flex;
+    justify-content: space-between;
 }
 
 .main_fifth-box-first {
@@ -807,6 +810,7 @@ select {
 
 footer {
     display: flex;
+    justify-content: space-between;
     column-gap: 20px;
     width: 90%;
     margin: 0 auto;
@@ -1077,8 +1081,8 @@ hr {
         margin-top: 20px;
     }
     .main_seventh-boxes {
-        width: 250px;
-        margin-left:0 ;
+        width: 320px;
+        margin: 0 auto;
     }
     .main_seven-transform {
         /* display: none;  bunu sorus */
@@ -1096,7 +1100,7 @@ hr {
     .main_eighth {
         display: grid;
         grid-template-columns: auto auto;
-        margin-left: 0px;
+        margin: 0 auto;
     }
     .main_eighth-img {
         width: 25px;
@@ -1474,6 +1478,9 @@ hr {
     .main_sixth-box2-2 {
         width: 55%;
     }
+    .main_third-box1-1_2{
+       width: 55%;
+    }
     .main_fifth{
         width: 50%;
         margin: 0 auto;
@@ -1499,5 +1506,67 @@ hr {
     }
     .main_sixth-box2-2{
         margin-left: 40px;
+    }
+}
+
+@media (min-width:930px) and (max-width:1024px) {
+    .main_second{
+        width: 95%;
+    }
+    .main__second-photos{
+        width: 100px;
+    }
+    .main_third {
+        width: 85%;
+    }
+    .main_third-box1-1_text2 {
+        width: 445px;
+    }
+
+    .main_third-box1-1{
+        width: 450px;
+    }
+    .main_fifth{
+        width: 85%;
+    }
+    .main_sixth-box1{
+        margin: 0;
+        padding: 0;
+    }
+    .img_sixth-none{
+        display: none;
+    }
+    .main_sixth-box2-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_eighth{
+        width: 100%;
+        column-gap: 10px;
+    }
+    .main_eighth-header{
+        font-size: 20px;
+    }
+    .main_eighth-text{
+        font-size: 16px;
+        width: 170px;
+    }
+    .main_eight-box1{
+        width: 170px;
+    }
+    .yigma{
+        width: 150px;
+    }
+    .main_ninth-img{
+        display: none;
+    }
+    
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin: 0 auto;
+        row-gap: 20px;
+
     }
 }
